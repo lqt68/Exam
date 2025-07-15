@@ -1,0 +1,82 @@
+.intro {
+    background-image: url(../img/img-cloud.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #e6f7fe;
+    height: 100%
+}
+
+.banner__content h1 {
+    padding-top: 40px;
+    font-size: 35px;
+    color: #03a9f4;
+}
+
+.banner__content h2 {
+    font-size: 35px;
+    color: #51555a;
+    padding-bottom: 40px;
+}
+
+.line {
+    width: 300px;
+    color: #51555a;
+    border: 1px solid black;
+}
+
+.banner__content p {
+    padding-top: 40px;
+    font-size: 14px;
+    color: #a2a5a9;
+}
+
+.banner {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.menu {
+    background-color: #03a9f4;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.btn__color {
+    background-color: #ffffff;
+    border-radius: 0;
+    height: 50px;
+}
+
+// .orange {
+//     width: 220px;
+//     height: 50px;
+//     background-color: #f75e2e;
+//     color: #ffffff;
+//     text-align: center;
+// }
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.orange {
+    background-color: #f75e2e;
+    color: #ffffff;
+
+    &:hover {
+        background-color: #fa9e82;
+        color: #ffffff;
+        // color: #f75e2e;
+    }
+}
