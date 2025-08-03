@@ -2,46 +2,65 @@
     background-image: url(../img/img-cloud.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center 44px;
     background-color: #e6f7fe;
-    height: 100%
+    height: 100%;
 }
 
 .banner__content h1 {
     padding-top: 40px;
-    font-size: 35px;
+    font-size: 52px;
     color: #03a9f4;
     font-family: Poppins-Bold;
 }
 
 .banner__content h2 {
-    font-size: 35px;
+    font-size: 52px;
     color: #51555a;
     padding-bottom: 40px;
     font-family: Poppins-Bold;
 }
 
 .line {
-    width: 300px;
+    width: 600px;
     color: #51555a;
     border: 1px solid black;
 }
 
+.banner__content-box {
+    width: 600px;
+}
+
 .banner__content p {
     padding-top: 40px;
-    font-size: 14px;
+    font-size: 22px;
     color: #a2a5a9;
     font-family: Poppins-Light;
 }
 
+.banner img {
+    padding-right: 100px;
+    position: relative;
+    z-index: 2;
+    top: 64px;
+}
+
+.input-group {
+    width: 300px;
+    height: 30px;
+}
+
 .banner {
-    padding-top: 100px;
+    padding-top: 56px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
 .menu {
+    position: relative;
+    z-index: 1;
+    top: 50px;
     background-color: #03a9f4;
     display: flex;
     flex-direction: row;
@@ -55,15 +74,26 @@
     height: 50px;
 }
 
-// .orange {
-//     width: 220px;
-//     height: 50px;
-//     background-color: #f75e2e;
-//     color: #ffffff;
-//     text-align: center;
-// }
+.menu__content {
+    padding: 30px;
+}
 
-.btn {
+.input-group>.form-control {
+    height: 40px;
+}
+
+.menu__content p {
+    margin-bottom: 6px;
+    color: #ffffff;
+}
+
+.menu__content a {
+    text-align: center;
+    margin-top: 28px;
+    width: 200px;
+}
+
+.my__btn {
     display: inline-block;
     padding: 10px 20px;
     text-decoration: none;
@@ -73,12 +103,27 @@
     border-radius: 5px;
 }
 
+.btn {
+    height: 40px;
+}
+
 .orange {
     background-color: #f75e2e;
     color: #ffffff;
 
     &:hover {
         background-color: #fa9e82;
+        color: #ffffff;
+        // color: #f75e2e;
+    }
+}
+
+.blue {
+    background-color: #0287c3;
+    color: #ffffff;
+
+    &:hover {
+        background-color: #c0e9fc;
         color: #ffffff;
         // color: #f75e2e;
     }

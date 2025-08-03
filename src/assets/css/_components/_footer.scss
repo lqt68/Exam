@@ -1,0 +1,139 @@
+footer {
+    background-color: #03a9f4;
+}
+
+.footer__nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #ffffff;
+
+    &:hover {
+        color: #015479;
+    }
+}
+
+.white__line {
+    border: 1px solid #ffffff;
+}
+
+.sections {
+    display: flex;
+    flex-direction: row;
+    padding: 40px 0;
+    justify-content: space-between;
+}
+
+.sections__desc {
+    display: flex;
+    flex-direction: column;
+    font-weight: lighter;
+}
+
+.sections__desc h5 {
+    color: #ffffff;
+    font-size: 24px;
+    padding-bottom: 14px;
+
+    &:hover {
+        color: #015479;
+        cursor: pointer;
+    }
+}
+
+.sections__desc a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 2;
+
+    &:hover {
+        color: #015479;
+        cursor: pointer;
+    }
+}
+
+.footer__links {
+    padding: 30px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer__links-desc {
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    color: #ffffff;
+    gap: 20px;
+    width: 30%;
+}
+
+.footer__links-desc img {
+    max-width: 40px;
+    max-height: 40px;
+    width: 100%;
+    height: 100%;
+}
+
+.footer__links-desc p {
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.footer__links-desc span {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.footer__links-desc {
+    display: flex;
+    gap: 10px;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    background-position: center;
+    transition: background-image 0.3s ease;
+}
+
+.icon--facebook {
+    background-image: url('../../../assets/img/facebook.png');
+}
+.icon--twitter {
+    background-image: url('../../../assets/img/twitter.png');
+}
+.icon--pinterest {
+    background-image: url('../../../assets/img/pinterest.png');
+}
+.icon--google {
+    background-image: url('../../../assets/img/google-plus.png');
+}
+
+.icon--facebook:hover {
+    background-image: url('../../../assets/img/facebook-hover.png');
+}
+.icon--twitter:hover {
+    background-image: url('../../../assets/img/twitter-hover.png');
+}
+.icon--pinterest:hover {
+    background-image: url('../../../assets/img/pinterest-hover.png');
+}
+.icon--google:hover {
+    background-image: url('../../../assets/img/google-plus-hover.png');
+}
