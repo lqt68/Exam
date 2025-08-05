@@ -76,6 +76,11 @@
     align-items: center;
     text-align: center;
     line-height: 1.2;
+
+    &:hover {
+        transform: scale(1.1);
+        transition: transform 0.3s ease;
+    }
 }
 
 .left__content p {
@@ -93,6 +98,11 @@
     padding: 16px;
     background-color: #00aef0;
     width: 40%;
+    
+    &:hover {
+        transform: scale(1.1);
+        transition: transform 0.3s ease;
+    }
 }
 
 .right {

@@ -1,0 +1,270 @@
+@media (max-width: 1320px) {
+    .header__content {
+        padding: 0;
+    }
+
+    .logo__link {
+        display: flex;
+        align-items: center;
+    }
+
+    .logo__img {
+        max-width: 200px;
+    }
+
+    .navbar-nav {
+        font-size: 14px;
+    }
+
+    .img__wrap {
+        width: 30px;
+        height: 30px;
+    }
+
+    .my__btn {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .banner__content h1 {
+        font-size: 42px;
+    }
+
+    .banner__content h2 {
+        font-size: 42px;
+    }
+
+    .banner__content-box p {
+        font-size: 24px;
+    }
+
+    .step__card {
+        width: 250px;
+        height: 250px;
+        padding: 0;
+    }
+
+    .step__card p {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .welcome__box-img img {
+        max-width: 300px;
+        max-height: 300px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .menu__content a {
+        margin-top: 22px;
+    }
+
+    .menu__content p {
+        font-size: 12px;
+    }
+
+    .step__card:hover::after {
+        content: "";
+        position: absolute;
+        top: 41%;
+        right: -13px;
+        transform: translateY(-50%);
+        width: 0;
+        height: 0;
+        border-top: 14px solid transparent;
+        border-left: 14px solid #ffffff;
+        border-bottom: 14px solid transparent;
+        z-index: 0;
+    }
+}
+
+@media (max-width: 1200px) {
+    .banner__content h1 {
+        font-size: 36px;
+    }
+
+    .banner__content h2 {
+        font-size: 36px;
+    }
+
+    .banner__content-box p {
+        font-size: 18px;
+    }
+
+    .input-group {
+        width: 200px;
+    }
+
+    .menu__content {
+        padding: 22px;
+    }
+
+    .welcome__box-content h2 {
+        font-size: 18px;
+    }
+
+    .welcome__box {
+        padding-left: 70px;
+        padding-right: 70px;
+        padding-bottom: 40px;
+    }
+
+    .step {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+
+    .step__card {
+        width: auto;
+        height: auto;
+        margin: 30px;
+    }
+
+    .step__card:hover::after {
+        top: 41%;
+    } 
+}
+
+@media (max-width: 1028px) {
+    .balloon {
+        right: -70px;
+    }
+
+    .banner__content-img {
+        display: none;
+    }
+}
+
+@media (max-width: 900px) {
+    .footer__navbar {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 16px;
+    }
+
+    .sections {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 18px;
+    }
+
+    .box__info {
+        padding: 40px;
+        max-height: none;
+    }
+
+    .my__btn {
+        font-size: 14px;
+    }
+
+    .menu {
+        gap: 4px;
+    }
+
+    @media (max-width: 806px) {
+        .banner__content h1 {
+            font-size: 24px;
+        }
+
+        .banner__content h2 {
+            font-size: 24px;
+        }
+
+        .line {
+            width: 400px;
+        }
+
+        .banner__content-box p {
+            font-size: 14px;
+        }
+
+        .menu {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .menu__content {
+            margin: 0 auto;
+        }
+
+        .welcome__box-img {
+            display: none;
+        }
+
+        .advantages__content-box {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .discount__content-box {
+            display: none;
+        }
+
+        .footer__nav {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .footer__links {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+    }
+}
+
+    @media (max-width: 703px) {
+        .banner__content h1 {
+            font-size: 24px;
+        }
+
+        .banner__content h2 {
+            font-size: 24px;
+        }
+
+        .welcome__box-content {
+            max-height: none;
+        }
+
+        .banner__content-box {
+            max-width: 300px;
+        }
+
+        .step {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .discount {
+            display: none;
+        }
+
+        .testimonials {
+            display: none;
+        }
+
+        .footer__navbar {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .sections {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .logo__img {
+            margin: 0 auto;
+            padding-bottom: 10px;
+        }
+
+        .footer__links-desc {
+            display: flex;
+            flex-direction: column;
+            margin: 0 auto;
+        }
+    }

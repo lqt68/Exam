@@ -27,8 +27,16 @@
 
 .welcome__box-content a {
     text-decoration: none;
+    font-family: Poppins-Light;
 }
 
 .welcome__box-content h2 {
     padding: 10px 0;
+    font-family: Poppins-Bold;
+}
+
+.welcome__box-content p {
+    font-family: Poppins-Light;
+    font-size: 14px;
+    color: #656a70;
 }

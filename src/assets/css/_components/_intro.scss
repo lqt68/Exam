@@ -66,6 +66,7 @@
     flex-direction: row;
     justify-content: space-between;
     gap: 30px;
+    // font-family: Poppins-Light;
 }
 
 .btn__color {
@@ -115,6 +116,11 @@
         background-color: #fa9e82;
         color: #ffffff;
         // color: #f75e2e;
+
+        &:active {
+            background-color: #c54b25;
+            color: #ffffff;
+        }
     }
 }
 
@@ -126,5 +132,10 @@
         background-color: #c0e9fc;
         color: #ffffff;
         // color: #f75e2e;
+
+        &:active {
+            background-color: #015479;
+            color: #ffffff;
+        }
     }
 }

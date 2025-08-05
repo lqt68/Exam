@@ -9,19 +9,24 @@ footer {
     padding: 20px;
 }
 
-.navbar {
+.footer__navbar {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     gap: 50px;
+    align-items: center;
 }
 
-.navbar a {
+.footer__navbar a {
     text-decoration: none;
     color: #ffffff;
 
     &:hover {
         color: #015479;
+
+        &:active {
+            color: #013249;
+        }
     }
 }
 
@@ -79,6 +84,7 @@ footer {
     color: #ffffff;
     gap: 20px;
     width: 30%;
+    cursor: pointer;
 }
 
 .footer__links-desc img {
@@ -127,13 +133,17 @@ footer {
 
 .icon--facebook:hover {
     background-image: url('../../../assets/img/facebook-hover.png');
+    cursor: pointer;
 }
 .icon--twitter:hover {
     background-image: url('../../../assets/img/twitter-hover.png');
+    cursor: pointer;
 }
 .icon--pinterest:hover {
     background-image: url('../../../assets/img/pinterest-hover.png');
+    cursor: pointer;
 }
 .icon--google:hover {
     background-image: url('../../../assets/img/google-plus-hover.png');
+    cursor: pointer;
 }
